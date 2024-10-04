@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Certainly! Below are the README.md files for both the Reforestation Planning Tool and the Supply Chain Optimization Dashboard.
 
-## Getting Started
+Reforestation Planning Tool
 
-First, run the development server:
+# Reforestation Planning Tool
 
-```bash
+## Overview
+
+The **Reforestation Planning Tool** is a web application designed to assist in selecting optimal planting sites for agave plants, supporting ecological restoration efforts for **CABRA**, a sustainable outdoor apparel and equipment company based in Albuquerque, New Mexico. The tool simulates the use of machine learning algorithms and cloud computing to analyze geospatial data, predict plant growth, and optimize resource allocation.
+
+## Features
+
+- **Optimal Planting Site Selection**
+  - Analyze geospatial data such as soil quality, climate conditions, and topography.
+  - Identify the best locations for agave planting using clustering algorithms like K-means.
+
+- **Predictive Growth Modeling**
+  - Simulate predictions of growth and survival rates of agave plants based on environmental data.
+  - Utilize regression models like Random Forests and decision trees.
+
+- **Efficient Resource Allocation**
+  - Optimize the allocation of labor, water, and other resources.
+  - Apply linear programming and optimization algorithms.
+
+- **CSV Upload and Download**
+  - Upload a CSV file containing geospatial data.
+  - Simulate data analysis and provide a downloadable CSV file as a result.
+
+## Technologies Used
+
+- **Frontend Framework**: Next.js, React
+- **Programming Language**: TypeScript
+- **UI Styling**: Tailwind CSS
+- **Charts and Visualization**: Chart.js, react-chartjs-2
+- **Map Integration**: Leaflet, React-Leaflet
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/reforestation-planning-tool.git
+   cd reforestation-planning-tool
+
+	2.	Install Dependencies
+
+npm install
+
+
+	3.	Run the Development Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+	4.	Open the Application
+Navigate to http://localhost:3000 in your web browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Usage
 
-## Learn More
+	•	Uploading Data
+	•	Navigate to the upload section.
+	•	Click on the “Upload CSV” button and select your file.
+	•	Simulating Analysis
+	•	After uploading, the app will display an “Analyzing…” message.
+	•	This simulates processing your data.
+	•	Downloading Results
+	•	Once the simulation is complete, a “Download Results” button will appear.
+	•	Click to download the (simulated) processed CSV file.
 
-To learn more about Next.js, take a look at the following resources:
+Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+	•	pages/: Contains Next.js page components.
+	•	components/: Reusable React components.
+	•	public/: Static assets like images and icons.
+	•	styles/: Global styles and CSS files.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Future Enhancements
 
-## Deploy on Vercel
+	•	Integrate Actual Machine Learning Models
+	•	Implement real data analysis using machine learning algorithms.
+	•	Cloud Computing Integration
+	•	Utilize cloud services for real-time data processing and scalability.
+	•	User Authentication
+	•	Allow users to create accounts and save their analysis history.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+We welcome contributions! Please fork the repository and create a pull request with your changes.
+
+License
+
+This project is licensed under the MIT License.

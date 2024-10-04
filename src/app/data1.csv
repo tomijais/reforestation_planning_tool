@@ -1,0 +1,12 @@
+Site Name,Latitude,Longitude,Site Type,Elevation (ft),Reforestation Type,Soil Quality,Water Availability,Forest Proximity (miles),Raw Coordinates,Reforestability Score
+Santa Fe National Forest,35.7961,-105.8912,Forest,7000,Ponderosa Pine,Good,High,0,"35.7961, -105.8912",9
+Gila National Forest,33.3783,-108.1235,Forest,7500,Piñon-Juniper,Moderate,Moderate,0,"33.3783, -108.1235",7
+Cibola National Forest,34.9400,-106.4591,Forest,6800,Douglas Fir,Good,Moderate,0,"34.9400, -106.4591",8
+Rio Grande Valley,34.4433,-106.8529,Grassland,5200,Cottonwood-Willow,Poor,Low,15,"34.4433, -106.8529",4
+Organ Mountains,32.3611,-106.5934,Forest,5600,Desert Oak,Moderate,Low,5,"32.3611, -106.5934",6
+Jemez Mountains,35.8755,-106.7536,Forest,8200,Aspen,Good,High,2,"35.8755, -106.7536",9
+Bosque del Apache,33.8047,-106.8917,Wetland,4600,Cottonwood-Willow,Moderate,High,25,"33.8047, -106.8917",6
+Carson National Forest,36.3539,-106.6111,Forest,8500,Ponderosa Pine,Good,Moderate,0,"36.3539, -106.6111",8
+White Sands,32.7791,-106.1710,Desert,4500,Desert Oak,Poor,Low,50,"32.7791, -106.1710",3
+Chihuahuan Desert,32.0000,-104.5000,Desert,4000,Mesquite,Moderate,Low,30,"32.0000, -104.5000",5
+
